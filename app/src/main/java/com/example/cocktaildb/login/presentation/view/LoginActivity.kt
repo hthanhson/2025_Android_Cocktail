@@ -9,10 +9,8 @@ import android.widget.Toast
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.app.AppCompatActivity
 import com.example.cocktaildb.R
-
 import com.example.cocktaildb.login.presentation.presenter.FirebaseAuthPresenter
 import com.example.cocktaildb.login.presentation.presenter.GoogleAuthPresenter
-
 import com.google.android.gms.auth.api.signin.GoogleSignInAccount
 import com.google.firebase.auth.FirebaseAuth
 
@@ -79,7 +77,5 @@ class LoginActivity : AppCompatActivity() {
                     }
             }
         }
-
-
     }
 }

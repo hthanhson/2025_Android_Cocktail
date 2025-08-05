@@ -12,8 +12,7 @@ import androidx.appcompat.app.AppCompatActivity
 import com.example.cocktaildb.R
 import com.example.cocktaildb.login.presentation.presenter.FirebaseAuthPresenter
 import com.example.cocktaildb.login.presentation.presenter.GoogleAuthPresenter
-import com.google.android.gms.auth.api.signin.*
-import com.google.firebase.auth.FirebaseAuth
+import com.google.android.gms.auth.api.signin.GoogleSignInAccount
 
 class SignUpActivity : AppCompatActivity() {
 
@@ -45,7 +44,7 @@ class SignUpActivity : AppCompatActivity() {
         val tvLoginLink = findViewById<TextView>(R.id.tvLoginLink)
         val btnGoogle = findViewById<ImageView>(R.id.btnGoogle)
         val btnSignUp = findViewById<Button>(R.id.btnSignUp)
-        val etName=findViewById<EditText>(R.id.etName)
+        val etName = findViewById<EditText>(R.id.etName)
         val etEmail = findViewById<EditText>(R.id.etEmail)
         val etPassword = findViewById<EditText>(R.id.etPassword)
         val etConfirmPassword = findViewById<EditText>(R.id.etConfirmPassword)

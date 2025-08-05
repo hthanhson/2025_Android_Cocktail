@@ -63,7 +63,6 @@ class GoogleAuthPresenter(private val context: Context) {
             }
     }
 
-
     fun signOut() {
         auth.signOut()
         googleSignInClient.signOut()
